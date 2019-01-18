@@ -4,9 +4,24 @@ h1 {
   padding: 50px 0px;
 }
 
+h3 {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 20px;
+}
+
+label,
+.btn {
+  font-size: 18px;
+}
+
 body {
-  background-color: lightblue;
+  background-color: #3b415a;
   font-family: 'Signika', sans-serif;
+  color: #d4d3e5;
 }
 
 .container {

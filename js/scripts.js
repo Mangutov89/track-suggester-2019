@@ -13,7 +13,10 @@ $(document).ready(function() {
     var question3 = parseInt($("#question3").val());
     var question4 = parseInt($("#question4").val());
     var question5 = parseInt($("#question5").val());
-    var total = question1 + question2 + question3 + question4 + question5
+    var question6 = parseInt($("#question6").val());
+    var question7 = parseInt($("#question7").val());
+    var question8 = parseInt($("#question8").val());
+    var total = question1 + question2 + question3 + question4 + question5 + question6 + question7 + question8
 
     if (name) {
       if (total < 100) {
@@ -40,17 +43,28 @@ $(document).ready(function() {
         $(".php").hide();
         $(".java").hide();
         $(".csharp").hide();
-      } else {
+      } else if (total > 401 && total < 500) {
         $(".csharp").show();
         $(".ruby").hide();
         $(".php").hide();
         $(".java").hide();
         $(".css").hide();
+      } else if (total > 501 && total < 600) {
+        $(".java").show();
+        $(".ruby").hide();
+        $(".php").hide();
+        $(".css").hide();
+        $(".csharp").hide();
+      } else {
+        $(".php").show();
+        $(".ruby").hide();
+        $(".java").hide();
+        $(".css").hide();
+        $(".csharp").hide();
       }
     } else {
       alert("Enter your name please")
     }
-
     $(".name").text(name)
   });
 });
