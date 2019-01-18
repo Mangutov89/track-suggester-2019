@@ -1,9 +1,22 @@
 h1 {
   text-align: center;
-  font-size: 150px;
+  font-size: 86px;
   padding: 50px 0px;
 }
 
 body {
   background-color: lightblue;
+  font-family: 'Signika', sans-serif;
+}
+
+.container {
+  padding: 35px 0px;
+}
+
+.labelsmall {
+  width: 40%;
+}
+
+[id^='question'] {
+  width: 55%;
 }
