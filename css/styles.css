@@ -2,20 +2,40 @@ h1 {
   text-align: center;
   font-size: 86px;
   padding: 50px 0px;
+  border: 2px solid #d4d3e5;
 }
 
 h3 {
   font-size: 35px;
   font-weight: bold;
+  margin: 40px 0px 20px 0px;
+}
+
+.top-margin {
+  margin-top: 150px;
 }
 
 p {
   font-size: 20px;
 }
 
+img.pair {
+  float: right;
+  height: 160px;
+  width: auto;
+  margin-left: 10px;
+}
+
+img.facility {
+  float: left;
+  height: 160px;
+  width: auto;
+  margin-right: 10px;
+}
+
 label,
 .btn {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 body {
